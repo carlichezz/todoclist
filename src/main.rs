@@ -29,7 +29,6 @@ fn main(){
         .about("Add new task")
         .arg(Arg::new("task-name")
             .num_args(1..)
-            .short('n')
             .help("Task name")
             .required(true)
         )
